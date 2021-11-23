@@ -1,7 +1,7 @@
 from rest_framework import permissions
 from rest_framework.exceptions import PermissionDenied
 
-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
+
 class IsOwnerOrReadOnly(permissions.BasePermission):
     """
     Custom permission to only allow creator of an object to edit it.
