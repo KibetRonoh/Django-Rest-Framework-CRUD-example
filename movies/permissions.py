@@ -1,9 +1,6 @@
 from rest_framework import permissions
 from rest_framework.exceptions import PermissionDenied
 
-from rest_framework import permissions
-from rest_framework.exceptions import PermissionDenied
-
 
 class IsOwnerOrReadOnly(permissions.BasePermission):
     """
